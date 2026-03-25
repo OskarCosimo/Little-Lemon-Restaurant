@@ -1,0 +1,45 @@
+* {
+  color: #333333;
+}
+
+h1 { font-size: 64pt }
+h2 { font-size: 40pt }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: "Karla", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16pt;
+  line-height: 1.5;
+}
+
+body, ul > li, footer > section > h3 {
+  margin: auto;
+}
+
+ul > li { font-size: 16pt; font-weight: 900; }
+
+button, .button {
+  background-color: #f4ce14;
+  border-radius: 16px;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 18pt;
+  transition: .3s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover, .button:hover {
+  background-color: #c0a20f;
+  text-decoration: none;
+}
